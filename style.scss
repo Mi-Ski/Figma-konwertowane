@@ -1,0 +1,146 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+$font_type0: 16px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type1: 500 24px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type2: 500 16px/1.2 "Inter", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(255, 255, 255);
+$font_color_type1: rgb(232, 232, 232);
+$font_color_type2: rgb(0, 0, 0);
+
+.new-item- {
+  &group {
+    display: flex;
+    background-color: $font_color_type0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25098039215686274);
+    border-radius: 16px 16px 0px 0px;
+  }
+  &group.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 295px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &group1 {
+    display: flex;
+  }
+  &group1.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 263px;
+    flex-grow: 1;
+    margin: 16px 24px;
+  }
+  &cover-group {
+    display: flex;
+    background-color: $font_color_type1;
+    border-radius: 5px 5px 5px 5px;
+  }
+  &cover-group.layout {
+    position: absolute;
+    overflow: visible;
+    top: 234px;
+    bottom: 0px;
+    min-height: 29px;
+    left: 0px;
+    right: 0px;
+    width: 90px;
+    min-width: 90px;
+    margin: 0px auto;
+  }
+  &txt {
+    display: flex;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type2;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &txt.layout {
+    position: relative;
+    height: min-content;
+    width: 54.44%;
+    min-width: min-content;
+    margin: 5px auto 0px;
+  }
+  &group2 {
+    display: flex;
+    background-color: rgb(232, 98, 0);
+    border-radius: 25.5px 25.5px 25.5px 25.5px;
+  }
+  &group2.layout {
+    position: absolute;
+    overflow: visible;
+    top: 170px;
+    bottom: 42px;
+    min-height: 51px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+  }
+  &txt1 {
+    display: flex;
+    justify-content: center;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &txt1.layout {
+    position: relative;
+    height: min-content;
+    width: fit-content;
+    margin: 16px auto 0px;
+  }
+  &medium-title-box {
+    display: flex;
+    justify-content: center;
+  }
+  &medium-title-box.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 33px 71px 172px;
+  }
+  &medium-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type1;
+    color: $font_color_type2;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &highlights {
+    display: flex;
+    justify-content: center;
+    font: $font_type2;
+    color: rgb(103, 103, 103);
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &highlights.layout {
+    position: absolute;
+    top: 122px;
+    bottom: 121px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+  }
+  &rect {
+    background-color: $font_color_type1;
+    border-radius: 2px 2px 2px 2px;
+  }
+  &rect.layout {
+    position: absolute;
+    top: 0px;
+    height: 4px;
+    left: 0px;
+    right: 0px;
+    width: 32px;
+    min-width: 32px;
+    display: block;
+    margin: 0px auto 259px;
+  }
+}
